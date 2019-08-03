@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             mc:Ignorable="d"
+             x:Class="LottieListTest.Views.PopupPageSentEmail">
+    <Frame CornerRadius="20" 
+           BackgroundColor="GhostWhite" 
+           HorizontalOptions="CenterAndExpand" 
+           VerticalOptions="CenterAndExpand"
+           x:Name="AnimationFrame">
+        <StackLayout Spacing="10">
+            <forms:AnimationView x:Name="AnimationView"
+                                 Animation="91-mailsent.json"
+                                 Loop="True"
+                                 AutoPlay="True"
+                                 WidthRequest="150" HeightRequest="150"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand" />
+            <Label Text="Sent!" HorizontalTextAlignment="Center"/>
+
+        </StackLayout>
+    </Frame>
+</pages:PopupPage>

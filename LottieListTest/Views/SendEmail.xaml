@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="LottieListTest.Views.SendEmail" Visual="Material"
+             Title="Send Email Test">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Padding="10">
+                <!--<Image Margin="0,50,0,0" x:Name="imgBanner" Source="icon" ></Image>-->
+                <Image Source="xamarin.png" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"></Image>
+                <Label Margin="0,0,0,10" FontAttributes="Bold" FontSize="Large" TextColor="DodgerBlue" HorizontalTextAlignment="Center" Text="Mail Test"></Label>
+                <Entry x:Name="txtTo" Placeholder="someone@example.com"></Entry>
+                <Entry x:Name="txtSubject" Placeholder="Subject"></Entry>
+                <Editor x:Name="txtBody" HeightRequest="80" Placeholder="Content"></Editor>
+                <Button x:Name="btnSend" Text="Send Mail" Clicked="btnSend_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

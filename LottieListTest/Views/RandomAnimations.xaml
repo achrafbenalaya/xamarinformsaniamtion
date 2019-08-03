@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:forms="clr-namespace:Lottie.Forms;assembly=Lottie.Forms"
+             mc:Ignorable="d"
+             x:Class="LottieListTest.Views.RandomAnimations"
+             Title="Lottie Animation">
+
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <forms:AnimationView x:Name="AnimationView0"
+                             IsPlaying="True"
+                             Grid.Row="0"
+                             Grid.Column="0"
+                             Animation="lightbulb.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+
+        <forms:AnimationView x:Name="AnimationView"
+                             IsPlaying="True"
+                             Grid.Row="1"
+                             Grid.Column="0"
+                             Animation="gift-box.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+        <forms:AnimationView x:Name="AnimationView1"
+                             IsPlaying="True"
+                             Grid.Row="2"
+                             Grid.Column="0"
+                             Animation="checked-done.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+        <forms:AnimationView x:Name="AnimationView2"
+                             IsPlaying="True"
+                             Grid.Row="3"
+                             Grid.Column="0"
+                             Animation="confetti.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+
+        <forms:AnimationView x:Name="AnimationView3"
+                             IsPlaying="True"
+                             Grid.Row="4"
+                             Grid.Column="0"
+                             Animation="happy-birthday.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+
+
+
+        <forms:AnimationView x:Name="AnimationView4"
+                             IsPlaying="True"
+                             Grid.Row="0"
+                             Grid.Column="1"
+                             Animation="128-around-the-world.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+
+        <forms:AnimationView x:Name="AnimationView5"
+                             IsPlaying="True"
+                             Grid.Row="1"
+                             Grid.Column="1"
+                             Animation="3532-car.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+        <forms:AnimationView x:Name="AnimationView6"
+                             IsPlaying="True"
+                             Grid.Row="2"
+                             Grid.Column="1"
+                             Animation="466-stopwatch-via-sketch2ae.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+        <forms:AnimationView x:Name="AnimationView7"
+                             IsPlaying="True"
+                             Grid.Row="3"
+                             Grid.Column="1"
+                             Animation="headphone.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+
+        <forms:AnimationView x:Name="AnimationView8"
+                             IsPlaying="True"
+                             Grid.Row="4"
+                             Grid.Column="1"
+                             Animation="676-done.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+
+
+
+
+        <forms:AnimationView x:Name="AnimationView9"
+                             IsPlaying="True"
+                             Grid.Row="0"
+                             Grid.Column="2"
+                             Animation="7390-email-sent-successful.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+
+        <forms:AnimationView x:Name="AnimationView10"
+                             IsPlaying="True"
+                             Grid.Row="1"
+                             Grid.Column="2"
+                             Animation="7928-god-of-wealth.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+        <forms:AnimationView x:Name="AnimationView11"
+                             IsPlaying="True"
+                             Grid.Row="2"
+                             Grid.Column="2"
+                             Animation="7940-lil-lazy-ghost.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+        <forms:AnimationView x:Name="AnimationView12"
+                             IsPlaying="True"
+                             Grid.Row="3"
+                             Grid.Column="2"
+                             Animation="8041-like-animation.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+
+        <forms:AnimationView x:Name="AnimationView13"
+                             IsPlaying="True"
+                             Grid.Row="4"
+                             Grid.Column="2"
+                             Animation="7958-delivery-car-icon.json"
+                             Loop="True"
+                             AutoPlay="True"
+                             VerticalOptions="FillAndExpand"
+                             HorizontalOptions="FillAndExpand" />
+
+    </Grid>
+</ContentPage>
